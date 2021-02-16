@@ -1,0 +1,458 @@
+body{
+	background-color: white;
+	overflow: scroll;
+	background-size: 100%; 
+}
+
+.container{
+	width: 100%;
+
+}
+.first-line{
+	width: 100%;
+	overflow: hidden;
+}
+.top-left {
+  	top: 8px;
+  	left: 16px;
+  	width: 22%;
+  	float: left;
+  }
+.menu ul{
+	display: inline-flex;
+	font-size: 20px;
+	padding-top: 35px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: Black;
+	cursor: pointer;
+}
+.menu{
+  position: absolute;
+  top: 25px;
+  right: 16px;
+  width: 70%;
+  text-align: right;
+  margin-right: 25px;
+
+}
+.f:hover{
+	color: pink;
+	padding-right: 25px;
+	opacity: 1;
+  	transition: 0.5s;
+}
+.s:hover{
+	color: pink;
+	padding-right: 25px;
+	opacity: 1;
+  	transition: 0.5s;
+}
+.t:hover{
+	color: pink;
+	padding-right: 25px;
+	opacity: 1;
+  	transition: 0.5s;
+}
+.fo:hover{
+	color: pink;
+	padding-right: 25px;
+	opacity: 1;
+  	transition: 0.5s;
+}
+.fi:hover{
+	color: pink;
+	padding-right: 25px;
+	opacity: 1;
+  	transition: 0.5s;
+}
+.si:hover{
+	color: pink;
+	padding-right: 25px;
+	opacity: 1;
+  	transition: 0.5s;
+}
+
+.image-container{
+	width: 100%;
+	height: 30%;
+	position: relative;
+	overflow: hidden;
+
+}
+.transition-img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+.transition-img:hover{
+	opacity: 1;
+}
+h1{
+	font-size: 38px;
+	color: black;
+	text-align: center;
+}
+.mypa{
+	padding: 30px;
+	text-align: justify;
+	color: gray;
+	font-size: 20px;
+}
+.layout{
+	width: 100%;
+	overflow: hidden;
+}
+.main-div{
+	   		padding: 80px;
+    		background-color: white;
+    		border: 1px solid;
+   			border-color: white;
+  			padding: 10px;
+  			margin: 58px;
+ 			box-shadow:  5px 5px 5px 5px #888888;
+}
+
+.personOne, .personTwo, .personThree{
+	width: 100%;
+	overflow: hidden;
+}
+.left-row{
+	width: 30%;
+	float: left;
+}
+.right-row{
+	width: 70%;
+	float: left;
+}
+/*.first-line{
+	width:100%;
+	height:50px;
+	-webkit-box-flex: 0;
+}*/
+h2{
+	font-size: 38px;
+	color: black;
+	text-align: center;
+}
+h3{
+	font-size: 22px;
+	color: gray;
+	text-align: center;
+
+}
+.pictures{
+	box-sizing: border-box;
+	border-color: black;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	justify-content: center;
+	}
+.flp{
+	width:100%;
+
+	}
+.io{
+	width: 25%;
+	margin-left: 80px;
+	float:left;
+}
+.discription-one{
+	color: gray;
+	text-align: center;
+
+}
+.it{
+	width:25%;
+	margin-left: 80px;
+	float: left;
+	
+}
+.discription-two{
+	color: gray;
+	text-align: center;
+
+}
+.ith{
+	width:25%;
+	margin-right: 80px;
+	float: right;
+	
+}
+.discription-three{
+	color: gray;
+	text-align: center;
+
+}
+.slp{
+	width: 100%;
+}
+
+.ifo{
+	width: 25%;
+	margin-left: 80px;
+	float:left;
+}
+.discription-four{
+	color: gray;
+	text-align: center;
+
+}
+.ifi{
+	width:25%;
+	margin-left: 80px;
+	float: left;
+	
+}
+.discription-five{
+	color: gray;
+	text-align: center;
+
+}
+.isi{
+	width:25%;
+	margin-right: 80px;
+	float: right;
+	
+}
+.discription-six{
+	color: gray;
+	text-align: center;
+
+}
+.tlp{
+	width: 100%;
+	overflow: hidden;
+}
+
+.ise{
+	width: 25%;
+	margin-left: 80px;
+	float:left;
+	
+}
+.discription-seven{
+	color: gray;
+	text-align: center;
+
+}
+.iei{
+	width:25%;
+	margin-left: 80px;
+	float: left;
+	
+}
+.discription-eight{
+	color: gray;
+	text-align: center;
+
+}
+.ini{
+	width:25%;
+	margin-right: 80px;
+	float: right;
+	
+}
+.discription-nine{
+	color: gray;
+	text-align: center;
+
+}
+
+
+.personOne{
+	width:100%;
+}
+.left-row{
+	width: 15%;
+	margin: 50px;
+	box-shadow:  5px 5px 5px 5px #888888;
+
+}
+.right-row{
+	width: 75%;
+
+}
+.headline{
+	font-size: 20px;
+	color: gray;
+	font-weight: bold;
+	margin-top: 70px;
+}
+.semiheadline{
+	font-size: 18px;
+	color: gray;
+}
+.para{
+	font-size: 18px;
+	color: gray;
+	text-align: justify;
+	margin-right: 40px;
+}
+
+.last-para{
+	background-color: #33383b;
+	width: 100%;
+	overflow: hidden;
+	border-top: 2px solid black;
+	display: inline-flex;
+	
+}
+.first-portion{
+	background-color: white;
+	width: 40%;
+	border-top-right-radius: 200px;
+	overflow: hidden;
+	border-right: 25px solid pink;
+}
+.last-img{
+	width: 45%;
+  	float: left;
+  	margin-left: 30px;
+}
+.last-menu ul{
+	display: inline-flex;
+	font-size: 18px;
+}
+.last-menu ul li{
+	list-style: inline;
+	color: #695F6A;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.last-menu{
+  position: static;
+  float: left;
+}
+.copyright{
+	color: #695F6A;
+	font-weight: bold;
+	margin-left: 40px;
+	font-size: 12px;
+}
+
+.center-portion{
+	width:30%;
+	float: left;
+	overflow: hidden;
+	margin-left: 50px;
+
+
+}
+.location-para{
+	color: white;
+	display: inline-flex;
+
+}
+.location{
+	width: 30px;
+	color: white;
+	margin-left: 5px;
+	margin-top: 50px;
+}
+.ltext{
+	float: left;
+	color: white;
+	font-size: 16px;
+	width: 73%;
+	margin-left: 5px;
+	margin-top: 50px;
+}
+.location-text{
+	float: left;
+	color: white;
+	font-size: 16px;
+	width: 100%;
+	margin-left: 5px;
+	margin-top: -5px;
+}
+.location-texttwo{
+	float: left;
+	color: white;
+	font-size: 16px;
+	width: 100%;
+	margin-left: 5px;
+	margin-top: -8px;
+	font-weight: bold;
+}
+.call-para{
+	color: white;
+	display: inline-flex;
+	
+}
+.call-text{
+	float: left;
+	color: white;
+	font-size: 16px;
+	width: 83%;
+	margin-left: 5px;
+    margin-left: 15px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+
+.call{
+	float: left;
+	color: white;
+	font-size: 16px;
+	width: 10%;
+	margin-left: 5px;
+	margin-top: -5px;
+}
+.mail-para{
+	color: white;
+	display: inline-flex;
+	
+}
+.mtext{
+	float: left;
+	color: white;
+	font-size: 16px;
+	width: 83%;
+	margin-left: 5px;
+	margin-top: -25px;
+    margin-left: 15px;
+}
+
+.mail{
+	float: left;
+	font-size: 16px;
+	width: 13%;
+	margin-left: 5px;
+	margin-top: -5px;
+}
+.last-portion{
+	width: 35%;
+	overflow: hidden;
+	color: white;
+}
+.about{
+	overflow: hidden;
+	width: 80%;
+}
+.about-headline{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	width: 45%;
+	text-align: left;
+}
+.about-company{
+	font-size: 18px;
+	text-align: justify;
+	width: 80%;
+	color: gray;
+}
+.icons{
+	width: 10%;
+	text-align: left;
+	overflow: hidden;
+	font-size: 30px;
+	display: inline-flex;
+	justify-content: space-between;
+}
